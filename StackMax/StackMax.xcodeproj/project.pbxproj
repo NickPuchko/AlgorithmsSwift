@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3D4048825D14DFB0064673A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4048725D14DFB0064673A /* main.swift */; };
+		C34C609425D4202000FEB5FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34C609325D4202000FEB5FD /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C3D4048225D14DFB0064673A /* CopyFiles */ = {
+		C34C608E25D4202000FEB5FD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C3D4048425D14DFB0064673A /* Puzzles */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Puzzles; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3D4048725D14DFB0064673A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C34C609025D4202000FEB5FD /* StackMax */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StackMax; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34C609325D4202000FEB5FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C3D4048125D14DFB0064673A /* Frameworks */ = {
+		C34C608D25D4202000FEB5FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C3D4047B25D14DFB0064673A = {
+		C34C608725D4202000FEB5FD = {
 			isa = PBXGroup;
 			children = (
-				C3D4048625D14DFB0064673A /* Puzzles */,
-				C3D4048525D14DFB0064673A /* Products */,
+				C34C609225D4202000FEB5FD /* StackMax */,
+				C34C609125D4202000FEB5FD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C3D4048525D14DFB0064673A /* Products */ = {
+		C34C609125D4202000FEB5FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C3D4048425D14DFB0064673A /* Puzzles */,
+				C34C609025D4202000FEB5FD /* StackMax */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C3D4048625D14DFB0064673A /* Puzzles */ = {
+		C34C609225D4202000FEB5FD /* StackMax */ = {
 			isa = PBXGroup;
 			children = (
-				C3D4048725D14DFB0064673A /* main.swift */,
+				C34C609325D4202000FEB5FD /* main.swift */,
 			);
-			path = Puzzles;
+			path = StackMax;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C3D4048325D14DFB0064673A /* Puzzles */ = {
+		C34C608F25D4202000FEB5FD /* StackMax */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3D4048B25D14DFB0064673A /* Build configuration list for PBXNativeTarget "Puzzles" */;
+			buildConfigurationList = C34C609725D4202000FEB5FD /* Build configuration list for PBXNativeTarget "StackMax" */;
 			buildPhases = (
-				C3D4048025D14DFB0064673A /* Sources */,
-				C3D4048125D14DFB0064673A /* Frameworks */,
-				C3D4048225D14DFB0064673A /* CopyFiles */,
+				C34C608C25D4202000FEB5FD /* Sources */,
+				C34C608D25D4202000FEB5FD /* Frameworks */,
+				C34C608E25D4202000FEB5FD /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Puzzles;
-			productName = Puzzles;
-			productReference = C3D4048425D14DFB0064673A /* Puzzles */;
+			name = StackMax;
+			productName = StackMax;
+			productReference = C34C609025D4202000FEB5FD /* StackMax */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C3D4047C25D14DFB0064673A /* Project object */ = {
+		C34C608825D4202000FEB5FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					C3D4048325D14DFB0064673A = {
+					C34C608F25D4202000FEB5FD = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = C3D4047F25D14DFB0064673A /* Build configuration list for PBXProject "Puzzles" */;
+			buildConfigurationList = C34C608B25D4202000FEB5FD /* Build configuration list for PBXProject "StackMax" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C3D4047B25D14DFB0064673A;
-			productRefGroup = C3D4048525D14DFB0064673A /* Products */;
+			mainGroup = C34C608725D4202000FEB5FD;
+			productRefGroup = C34C609125D4202000FEB5FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C3D4048325D14DFB0064673A /* Puzzles */,
+				C34C608F25D4202000FEB5FD /* StackMax */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C3D4048025D14DFB0064673A /* Sources */ = {
+		C34C608C25D4202000FEB5FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3D4048825D14DFB0064673A /* main.swift in Sources */,
+				C34C609425D4202000FEB5FD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C3D4048925D14DFB0064673A /* Debug */ = {
+		C34C609525D4202000FEB5FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		C3D4048A25D14DFB0064673A /* Release */ = {
+		C34C609625D4202000FEB5FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		C3D4048C25D14DFB0064673A /* Debug */ = {
+		C34C609825D4202000FEB5FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -252,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		C3D4048D25D14DFB0064673A /* Release */ = {
+		C34C609925D4202000FEB5FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C3D4047F25D14DFB0064673A /* Build configuration list for PBXProject "Puzzles" */ = {
+		C34C608B25D4202000FEB5FD /* Build configuration list for PBXProject "StackMax" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3D4048925D14DFB0064673A /* Debug */,
-				C3D4048A25D14DFB0064673A /* Release */,
+				C34C609525D4202000FEB5FD /* Debug */,
+				C34C609625D4202000FEB5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3D4048B25D14DFB0064673A /* Build configuration list for PBXNativeTarget "Puzzles" */ = {
+		C34C609725D4202000FEB5FD /* Build configuration list for PBXNativeTarget "StackMax" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3D4048C25D14DFB0064673A /* Debug */,
-				C3D4048D25D14DFB0064673A /* Release */,
+				C34C609825D4202000FEB5FD /* Debug */,
+				C34C609925D4202000FEB5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C3D4047C25D14DFB0064673A /* Project object */;
+	rootObject = C34C608825D4202000FEB5FD /* Project object */;
 }
